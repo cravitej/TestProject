@@ -174,7 +174,7 @@ export default function Resume() {
             {/* Action Buttons */}
             <div className="text-center pt-6 border-t-2 border-gray-200">
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Interested in working together?</h3>
-              <p className="text-gray-600 mb-6">Let's discuss your next project and bring your ideas to life.</p>
+                             <p className="text-gray-600 mb-6">Let&apos;s discuss your next project and bring your ideas to life.</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <motion.button
                   whileHover={{ scale: 1.05 }}

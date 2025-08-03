@@ -269,7 +269,7 @@ export default function Projects() {
             className="text-center mt-16"
           >
             <h3 className="text-2xl font-semibold text-white mb-4">Interested in working together?</h3>
-            <p className="text-gray-300 mb-8">Let's discuss your next project and bring your ideas to life.</p>
+                         <p className="text-gray-300 mb-8">Let&apos;s discuss your next project and bring your ideas to life.</p>
             <Link href="/contact">
               <motion.button
                 whileHover={{ scale: 1.05 }}

@@ -1,7 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Link from 'next/link'
 import { useState } from 'react'
 import Header from '../components/Header'
 
@@ -70,7 +69,7 @@ export default function Contact() {
                 transition={{ delay: 0.4, duration: 0.6 }}
                 className="text-lg text-gray-300"
               >
-                Let's discuss your next project or just say hello!
+                Let&apos;s discuss your next project or just say hello!
               </motion.p>
             </div>
 
@@ -173,7 +172,7 @@ export default function Contact() {
                 animate={{ opacity: 1, y: 0 }}
                 className="mt-6 p-4 bg-green-500/20 border border-green-500/30 rounded-lg text-green-300 text-center"
               >
-                ✅ Message sent successfully! I'll get back to you soon.
+                ✅ Message sent successfully! I&apos;ll get back to you soon.
               </motion.div>
             )}
 

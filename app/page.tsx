@@ -1,12 +1,10 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { useState } from 'react'
 import Link from 'next/link'
 import Header from './components/Header'
 
 export default function Home() {
-  const [isHovered, setIsHovered] = useState(false)
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
